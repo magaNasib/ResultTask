@@ -1,13 +1,7 @@
+import { TAGS } from "@/consts";
 import { Button, Flex, Tag } from "@chakra-ui/react";
 
 const Tags = () => {
-  const TAGS = [
-    "MAG",
-    "Qualification",
-    "Seniors",
-    "Apparatus",
-    "Floor exercise",
-  ];
   return (
     <Flex flexDirection={"column"}>
       <Flex

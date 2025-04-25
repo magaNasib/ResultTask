@@ -1,47 +1,10 @@
-import FX from "@/assets/images/FX.png";
-import HB from "@/assets/images/HB.png";
-import PB from "@/assets/images/PB.png";
-import PH from "@/assets/images/PH.png";
-import SR from "@/assets/images/SR.png";
-import VT from "@/assets/images/VT.png";
+import { APPARATUSES_DATA } from "@/consts";
 import { Center, Flex, Image, Text } from "@chakra-ui/react";
-const data = [
-  {
-    id: 1,
-    img: FX,
-    title: "",
-  },
-  {
-    id: 2,
-    img: HB,
-    title: "",
-  },
-  {
-    id: 3,
-    img: PB,
-    title: "",
-  },
-  {
-    id: 4,
-    img: VT,
-    title: "Vault",
-  },
-  {
-    id: 5,
-    img: SR,
-    title: "",
-  },
-  {
-    id: 6,
-    img: PH,
-    title: "",
-  },
-];
 
 export const Apparatus = () => {
   return (
     <Center gap={"56px"} display={"none"} lg={{ display: "flex" }}>
-      {data.map((item) => {
+      {APPARATUSES_DATA.map((item) => {
         return (
           <Flex
             flexDirection={"column"}

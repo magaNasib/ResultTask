@@ -302,7 +302,45 @@ export const LIVE_TABLE = [
     },
   },
 ];
-
+export const TAGS = [
+  "MAG",
+  "Qualification",
+  "Seniors",
+  "Apparatus",
+  "Floor exercise",
+];
+export const APPARATUSES_DATA = [
+  {
+    id: 1,
+    img: FX,
+    title: "",
+  },
+  {
+    id: 2,
+    img: HB,
+    title: "",
+  },
+  {
+    id: 3,
+    img: PB,
+    title: "",
+  },
+  {
+    id: 4,
+    img: VT,
+    title: "Vault",
+  },
+  {
+    id: 5,
+    img: SR,
+    title: "",
+  },
+  {
+    id: 6,
+    img: PH,
+    title: "",
+  },
+];
 export const PROJECT_ROUTES = {
   live: "/live",
   startlist: "/startlist",
